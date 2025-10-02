@@ -1,12 +1,20 @@
 {
     "build": {
-      "internal": {
-        "distribution": "internal",
-        "ios": {
-          "enterpriseProvisioning": "ad-hoc"
-        },
+      "production": {
         "android": {
-          "type": "apk" 
+          "buildType": "app-bundle"  
+        },
+        "ios": {
+          "enterpriseProvisioning": "universal"  
+        }
+      },
+      "internal": {  
+        "distribution": "internal",
+        "android": {
+          "buildType": "apk"
+        },
+        "ios": {
+          "enterpriseProvisioning": "adhoc"
         }
       }
     }
