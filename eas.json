@@ -1,0 +1,13 @@
+{
+    "build": {
+      "internal": {
+        "distribution": "internal",
+        "ios": {
+          "enterpriseProvisioning": "ad-hoc"
+        },
+        "android": {
+          "type": "apk" 
+        }
+      }
+    }
+  }
